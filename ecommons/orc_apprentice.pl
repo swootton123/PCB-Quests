@@ -6,5 +6,5 @@ sub EVENT_COMBAT {
 }
 
 sub EVENT_DEATH_COMPLETE {
-	quest::say("Aaarrghh!! The Deathfist shall hunt you down. My death will not go unnoticed.");
+	quest::say("Tell my mother i died protecting our lands she's in the abandoned hut in kithicors forest.");
 }
