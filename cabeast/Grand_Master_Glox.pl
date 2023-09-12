@@ -34,8 +34,8 @@ sub EVENT_ITEM {
 		#:: Set factions
 		quest::faction(444, 200);	#:: + Swift Tails
 		quest::faction(441, 50);	#:: + Legion of Cabilis
-		#:: Grant a small amount of experience
-		quest::exp(100)
+		#:: Grant a medium amount of experience
+		quest::exp(5000)
 	}
 	#:: Match a 14788 - Illegible Note: Helm
 	elsif (plugin::takeItems(14788 =>1 )) {
